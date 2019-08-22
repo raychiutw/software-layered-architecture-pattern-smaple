@@ -3,7 +3,7 @@ using Sla.Common.Dto;
 using Sla.WebApi.Controllers.Parameters;
 using Sla.WebApi.Controllers.ViewModels;
 
-namespace Sla.WebApi.Controllers.Infrastructure
+namespace Sla.WebApi.Infrastructure
 {
     /// <summary>
     /// Class ControllerProfile.
