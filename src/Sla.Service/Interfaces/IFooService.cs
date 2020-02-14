@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Sla.Repository.Dto;
+using Sla.Repository.Dtos;
 
-namespace Sla.Service.Interface
+namespace Sla.Service.Interfaces
 {
     /// <summary>
     ///  FooService 介面
@@ -14,6 +14,6 @@ namespace Sla.Service.Interface
         /// </summary>
         /// <param name="dto">查詢條件</param>
         /// <returns></returns>
-        Task<IEnumerable<FooDto>> Get(QueryFooDto dto);
+        Task<IEnumerable<FooDto>> GetAsync(QueryFooDto dto);
     }
 }

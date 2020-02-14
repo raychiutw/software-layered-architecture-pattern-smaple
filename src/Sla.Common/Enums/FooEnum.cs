@@ -1,4 +1,4 @@
-﻿namespace Sla.Common.Enum
+﻿namespace Sla.Common.Enums
 {
     /// <summary>
     /// Enum FooEnum

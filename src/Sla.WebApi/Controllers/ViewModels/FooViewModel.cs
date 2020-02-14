@@ -1,4 +1,4 @@
-﻿using Sla.Common.Enum;
+﻿using Sla.Common.Enums;
 
 namespace Sla.WebApi.Controllers.ViewModels
 {

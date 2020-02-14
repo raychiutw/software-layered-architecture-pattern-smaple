@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Sla.Repository.Dto;
+using Sla.Repository.Dtos;
 using Sla.WebApi.Controllers.Parameters;
 using Sla.WebApi.Controllers.ViewModels;
 

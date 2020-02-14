@@ -1,6 +1,6 @@
-﻿using Sla.Common.Enum;
+﻿using Sla.Common.Enums;
 
-namespace Sla.Repository.Dto
+namespace Sla.Repository.Dtos
 {
     /// <summary>
     /// Class FooDto.

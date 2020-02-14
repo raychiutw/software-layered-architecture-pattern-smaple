@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Sla.Repository.Enities;
 
-namespace Sla.Repository.Interface
+namespace Sla.Repository.Interfaces
 {
     /// <summary>
     /// Interface IFooRepository
@@ -13,6 +13,6 @@ namespace Sla.Repository.Interface
         /// 取得 Foo
         /// </summary>
         /// <param name="dto">查詢條件</param>
-        Task<IEnumerable<Foo>> Get(QueryFoo dto);
+        Task<IEnumerable<Foo>> GetAsync(QueryFoo dto);
     }
 }

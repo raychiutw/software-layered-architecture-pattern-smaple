@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Sla.Repository.Implement;
-using Sla.Repository.Interface;
-using Sla.Service;
-using Sla.Service.Interface;
+using Sla.Repository.Implements;
+using Sla.Repository.Interfaces;
+using Sla.Service.Implements;
+using Sla.Service.Interfaces;
 
 namespace Sla.WebApi
 {

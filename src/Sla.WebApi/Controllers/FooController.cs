@@ -2,8 +2,8 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Sla.Repository.Dto;
-using Sla.Service.Interface;
+using Sla.Repository.Dtos;
+using Sla.Service.Interfaces;
 using Sla.WebApi.Controllers.Parameters;
 using Sla.WebApi.Controllers.ViewModels;
 
@@ -36,12 +36,12 @@ namespace Sla.WebApi.Controllers
         /// <param name="parameter">查詢參數</param>
         /// <returns></returns>
         [HttpGet]
-        public async Task<IEnumerable<FooViewModel>> Get(QueryFooParameter parameter)
+        public async Task<IEnumerable<FooViewModel>> GetAsync(QueryFooParameter parameter)
         {
             // Convert FooParameter to QuryFooDto
             var queryFooDto = this._mapper.Map<QueryFooDto>(parameter);
 
-            var fooDto = await this._fooService.Get(queryFooDto);
+            var fooDto = await this._fooService.GetAsync(queryFooDto);
 
             // Convert FooDto to FooViewModel
             var fooViewModels = this._mapper.Map<IEnumerable<FooViewModel>>(fooDto);
