@@ -1,4 +1,4 @@
-﻿namespace Sla.Common.Enities
+﻿namespace Sla.Repository.Enities
 {
     /// <summary>
     /// Class QueryFoo.

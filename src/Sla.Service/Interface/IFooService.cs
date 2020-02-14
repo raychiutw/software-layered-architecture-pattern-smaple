@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Sla.Common.Dto;
+using Sla.Repository.Dto;
 
 namespace Sla.Service.Interface
 {

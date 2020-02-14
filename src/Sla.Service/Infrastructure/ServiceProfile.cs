@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Sla.Common.Dto;
-using Sla.Common.Enities;
+using Sla.Repository.Dto;
+using Sla.Repository.Enities;
 
 namespace Sla.Service.Infrastructure
 {

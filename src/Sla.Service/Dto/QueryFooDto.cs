@@ -1,4 +1,4 @@
-﻿namespace Sla.Common.Dto
+﻿namespace Sla.Repository.Dto
 {
     /// <summary>
     /// Class QueryFooDto.

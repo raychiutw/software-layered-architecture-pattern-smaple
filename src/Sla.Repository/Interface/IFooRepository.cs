@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Sla.Common.Enities;
+using Sla.Repository.Enities;
 
 namespace Sla.Repository.Interface
 {

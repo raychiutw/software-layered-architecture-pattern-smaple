@@ -1,6 +1,6 @@
 ﻿using Sla.Common.Enum;
 
-namespace Sla.Common.Enities
+namespace Sla.Repository.Enities
 {
     /// <summary>
     /// Class Foo.

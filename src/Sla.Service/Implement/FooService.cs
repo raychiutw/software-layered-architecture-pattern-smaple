@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
-using Sla.Common.Dto;
-using Sla.Common.Enities;
+using Sla.Repository.Dto;
+using Sla.Repository.Enities;
 using Sla.Repository.Interface;
 using Sla.Service.Interface;
 

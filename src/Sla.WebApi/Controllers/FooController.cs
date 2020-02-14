@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Sla.Common.Dto;
+using Sla.Repository.Dto;
 using Sla.Service.Interface;
 using Sla.WebApi.Controllers.Parameters;
 using Sla.WebApi.Controllers.ViewModels;
